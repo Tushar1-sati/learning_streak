@@ -7,6 +7,14 @@ for i in range(1,n+1):
     Total=Total+i
 print(Total)
 
+        
+s1="python is fun"
+count=0
+vowel="aeiou"
+for i in s1:
+    if i in vowel:
+        count=count+1
+print(count)
 
 
 
