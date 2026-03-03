@@ -26,3 +26,23 @@ for i in range(1,50):
         num.append(i)
 print(num)
 # learning is we can't add integer in list for adding something in list use append function
+
+
+#  Calculate the sum of all even numbers in a list.
+# Input: [1, 4, 7, 10, 12]
+l1=[1, 4, 7, 10, 12]
+even=[]
+for i in l1:
+    if i%2==0:
+        even.append(i)
+    print(even)
+print(sum(even))
+
+# Print numbers between 1–50 divisible by 3 or 5
+l1=[]
+for i in range(1,51):
+    if i%3==0 or i%5==0:
+        l1.append(i)
+print(l1)
+
+
