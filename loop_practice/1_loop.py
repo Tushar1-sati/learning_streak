@@ -45,4 +45,11 @@ for i in range(1,51):
         l1.append(i)
 print(l1)
 
-
+# Find the largest number in a list.
+# Input: [5, 12, 3, 21, 7]
+l1=[5, 12, 3, 21, 7]
+max_num=l1[0]
+for i in l1:
+    if i> max_num:
+        max_num=i
+print(max_num)
