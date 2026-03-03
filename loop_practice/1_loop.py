@@ -53,3 +53,20 @@ for i in l1:
     if i> max_num:
         max_num=i
 print(max_num)
+
+
+# Print all Fibonacci numbers less than a given number N.
+# Input: N = 20
+N = 20
+fib = [0, 1]
+
+for _ in range(N):
+    next_num = fib[-1] + fib[-2]
+    if next_num >= N:
+        break
+    fib.append(next_num)
+
+print(fib)
+
+
+              
