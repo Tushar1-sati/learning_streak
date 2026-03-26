@@ -60,13 +60,33 @@ print(max_num)
 N = 20
 fib = [0, 1]
 
-for _ in range(N):
+for i in range(N):
     next_num = fib[-1] + fib[-2]
     if next_num >= N:
         break
     fib.append(next_num)
-
 print(fib)
+
+
+# - Print the multiplication table of 
+for i in range(1,11):
+    print(5*i)
+
+
+
+# - Print the squares of numbers from 1 to 10
+
+for i in range(1,11):
+    print(i**2)
+
+# - Print the factorial of a given number (e.g., 5)
+factt=1
+for i in range(1,2):
+    factt=i*factt
+print(factt)
+    
+
+
 
 
               
