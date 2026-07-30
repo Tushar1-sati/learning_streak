@@ -15,4 +15,8 @@ for i in range(365):
 print(thursday_list)
 print(len(thursday_list))
 
-    
+# EPOC TIME
+# EPOC TO DATE TIME
+epoch1=1785425579
+n1=dt.datetime.fromtimestamp(epoch1)
+print(n1)
